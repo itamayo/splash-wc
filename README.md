@@ -1,4 +1,4 @@
-# tm-splash-screen
+# tm-splash-screen ( based on -> https://github.com/tmcmaster/tm-splash-screen )
 
 Web component splash screen to manage login and waiting for dependencies.
 
