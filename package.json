@@ -1,0 +1,36 @@
+{
+  "bundleDependencies": false,
+  "dependencies": {
+    "@wonkytech/tm-firebase-user": "~0.1",
+    "lit-element": "^2.0.1",
+    "lit-html": "^1.0.0"
+  },
+  "deprecated": false,
+  "description": "Web component splash screen.",
+  "devDependencies": {
+    "@pika/pack": "^0.5.0",
+    "@pika/plugin-build-node": "^0.6.1",
+    "@pika/plugin-build-types": "^0.6.1",
+    "@pika/plugin-build-web": "^0.6.1",
+    "@pika/plugin-standard-pkg": "^0.6.1",
+    "@pika/types": "^0.6.1",
+    "owc-dev-server": "^0.3.0"
+  },
+  "esnext": "dist-src/index.js",
+  "files": [
+    "dist-*/",
+    "bin/"
+  ],
+  "homepage": "https://tmcmaster.github.io/tm-splash-screen",
+  "license": "MIT",
+  "main": "dist-node/index.js",
+  "module": "dist-web/index.js",
+  "name": "splash-wc",
+  "pika": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itamayo/splash-wc.git"
+  },
+  "sideEffects": true,
+  "version": "0.1.1"
+}
