@@ -166,7 +166,7 @@ window.customElements.define('tm-splash-screen', class extends LitElement {
       config
     } = this;
 
-        return html`<mwc-button id="title-login" class="title" outlined @click="${() => this.hide()}">Start</mwc-button>`;
+        return html`<mwc-button id="title-login" class="title" outlined @click="${() => this.hide()}">Começar</mwc-button>`;
   }
 
   logout() {
